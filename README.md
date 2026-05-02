@@ -1,3 +1,13 @@
+<img width="1847" height="887" alt="Screenshot 2026-05-02 221443" src="https://github.com/user-attachments/assets/636d21fb-0d6e-4a35-89ac-5bc847286545" />
+<img width="1849" height="879" alt="Screenshot 2026-05-02 221453" src="https://github.com/user-attachments/assets/e7cf1d89-c8dc-49f7-8ebf-f6553faab74c" />
+<img width="1821" height="883" alt="Screenshot 2026-05-02 221532" src="https://github.com/user-attachments/assets/162612d3-82ee-47ed-982d-e1d8e108b11a" />
+<img width="1840" height="868" alt="Screenshot 2026-05-02 221816" src="https://github.com/user-attachments/assets/15e78635-0655-4622-a984-526f40cdfc05" />
+<img width="1535" height="672" alt="Screenshot 2026-05-02 221824" src="https://github.com/user-attachments/assets/eb0f9f00-5e2c-407e-8ed8-ff57f2e5885e" />
+<img width="1845" height="866" alt="Screenshot 2026-05-02 221759" src="https://github.com/user-attachments/assets/39e74e66-4043-43fd-bfe0-dab986140a74" />
+<img width="1051" height="747" alt="Screenshot 2026-05-02 221648" src="https://github.com/user-attachments/assets/5679868f-83cd-4399-b669-9c1347a8830f" />
+
+
+
 # 🎣 Phishing Simulator - Security Awareness Training Tool
 
 A web-based phishing simulation platform designed to educate users about phishing attacks and improve organizational security awareness.
