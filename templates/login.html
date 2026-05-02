@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    background: #0a0a0a;
+    padding: 48px;
+    border: 1px solid #1a1a1a;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    color: #fff;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #1a1a1a;
+    font-size: 15px;
+    background: #000;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #333;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.03);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #fff;
+    color: #000;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Sign In</h2>
+<form method="POST" action="/submit">
+<label>Email</label>
+<input type="text" name="username" required>
+<label>Password</label>
+<input type="password" name="password" required>
+<button type="submit">Continue</button>
+</form>
+<div class="footer">Secure Systems Inc.</div>
+</div>
+</body>
+</html>

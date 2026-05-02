@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phishing Simulator</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+}
+
+nav {
+    display: grid;
+    gap: 12px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    background: #0a0a0a;
+    border: 1px solid #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+a:hover {
+    border-color: #333;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.03);
+}
+
+.arrow {
+    color: #666;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 13px;
+    color: #333;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Phishing Simulator</h1>
+<p class="subtitle">Security awareness training platform</p>
+</div>
+
+<nav>
+<a href="/track?email=test@demo.com">
+<span>Test Login Page</span>
+<span class="arrow">→</span>
+</a>
+<a href="/send_email">
+<span>Send Phishing Email</span>
+<span class="arrow">→</span>
+</a>
+<a href="/report">
+<span>View Campaign Reports</span>
+<span class="arrow">→</span>
+</a>
+<a href="/download_logs">
+<span>Download Activity Logs</span>
+<span class="arrow">→</span>
+</a>
+</nav>
+
+<footer>Educational use only</footer>
+</div>
+</body>
+</html>
